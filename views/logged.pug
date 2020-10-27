@@ -1,0 +1,5 @@
+include includes/head.pug
+
+script
+    != 'let profile =' + JSON.stringify(profile) +'; let accessToken = ' + JSON.stringify(accessToken) +'; localStorage.setItem("profile", profile); localStorage.setItem("accessToken", accessToken); window.location.href="/";'
+    

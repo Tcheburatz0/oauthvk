@@ -1,0 +1,31 @@
+{
+  "name": "oauth",
+  "version": "0.1.0",
+  "description": "oauth vk test task",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tcheburatz0/oauthvk.git"
+  },
+  "keywords": [
+    "oauth"
+  ],
+  "author": "Roman Privalov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tcheburatz0/oauthvk/issues"
+  },
+  "homepage": "https://github.com/Tcheburatz0/oauthvk#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "multer": "^1.3.0",
+    "node-vkapi": "^3.0.4",
+    "passport": "^0.4.0",
+    "passport-vkontakte": "^0.3.2",
+    "pug": "^2.0.0-rc.4"
+  }
+}
